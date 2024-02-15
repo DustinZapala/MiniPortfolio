@@ -1,0 +1,154 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  padding-top: 56px;
+}
+
+#navbar {
+  background-color: #2c7a78; 
+  box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+#mission-section-target, #skills-section-target, #contact-section-target {
+  position: relative;
+  top: -100px;
+}
+
+#hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/nasa-hubble-space-telescope-vudiproyvBs-unsplash.jpg);
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: #dbf0f0;
+}
+
+
+#headshot-img {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  border-width: 10px !important;
+  border-radius: 50% !important;
+}
+
+.custom-font-weight {
+  font-weight: 400; 
+}
+
+#mission-section {
+  background-color: #17242a;
+  color: #dbf0f0;
+}
+
+@media (min-width: 0px) {
+    #mission-section p {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    #mission-section p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    #mission-section p {
+        font-size: 18px;
+    }
+}
+
+#skills-section {
+  background-color: #5ec9c4;
+  color: #1a5b59;
+}
+
+#skills-section p {
+    font-size: 16px;
+}
+
+@media (min-width: 0px) {
+    #skills-section p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    #skills-section p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    #skills-section p {
+        font-size: 19px;
+    }
+}
+
+#contact-section {
+  background-color: #17242a;
+  color: #dbf0f0;
+}
+
+#contact-section .bi {
+    color: #dbf0f0;
+}
+
+#contact-section .bi:hover {
+    color: #3aafa9;
+}
+
+#contact-section .bi {
+    font-size: 16px;
+}
+
+@media (min-width: 0px) {
+    #contact-section .bi {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #contact-section .bi {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #contact-section .bi {
+        font-size: 2.5rem;
+    }
+}
+
+#carousel-section {
+  background-color: #5ec9c4;
+  color: #1a5b59;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center; 
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.2);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+.italicized-text {
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000;
+}
